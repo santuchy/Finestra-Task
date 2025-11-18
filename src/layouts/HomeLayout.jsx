@@ -5,6 +5,7 @@ import TrustedBy from '../components/trustedby/TrustedBy';
 import ManageSection from '../components/manageSection/ManageSection';
 import FinanceSection from '../components/financeSection/FinanceSection';
 import TestimonialsSection from '../components/testimonialSection/TestimonialsSection';
+import Footer from '../components/footer/Footer';
 
 const HomeLayout = () => {
     return (
@@ -15,6 +16,7 @@ const HomeLayout = () => {
             <ManageSection></ManageSection>
             <FinanceSection></FinanceSection>
             <TestimonialsSection></TestimonialsSection>
+            <Footer></Footer>
         </div>
     );
 };
