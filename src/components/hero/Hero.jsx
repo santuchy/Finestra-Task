@@ -5,7 +5,7 @@ import Cursor2 from "../../assets/Resource/fluent_cursor-20-filled.png"
 
 export default function Hero() {
   return (
-    <div className="w-full bg-white flex justify-center pb-10">
+    <div className="w-full bg-white flex justify-center pb-5">
       {/* WHITE BACKGROUND OUTSIDE */}
       <section
         className="
