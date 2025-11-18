@@ -15,15 +15,15 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full flex items-center justify-between px-6 lg:px-10 py-4 bg-white">
+    <nav className="w-full grid grid-cols-3 items-center px-6 lg:px-25 py-4 bg-white mx-auto">
       
       <div className="flex items-center gap-2">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="logo" />
         <h1 className="text-2xl font-semibold">Finestra</h1>
       </div>
 
       {/* Middle Desktop Menu */}
-      <div className="hidden lg:flex bg-black text-white rounded-full px-3 py-2 items-center gap-6">
+      <div className="hidden lg:flex bg-black text-white rounded-full px-4 py-2 items-center gap-10 mx-auto">
         {navItems.map((item) => (
           <button
             key={item}
@@ -43,7 +43,7 @@ export default function Navbar() {
       </div>
 
       {/* Right Side Desktop */}
-      <div className="hidden lg:flex items-center gap-4">
+      <div className="hidden lg:flex items-center gap-4 justify-end">
         {/* Toggle Pill */}
         <div className="w-10 h-5 rounded-full border border-gray-300 flex items-center px-1 cursor-pointer">
           <div className="w-4 h-4 bg-[#FF5F5F] rounded-full"></div>
